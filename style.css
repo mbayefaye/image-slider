@@ -1,0 +1,72 @@
+#contentContainer {
+  width: 550px;
+  height: 350px;
+  border: 5px solid black;
+  overflow: hidden;
+}
+
+#wrapper {
+  width: 2200px;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.content {
+  float: left;
+  width: 550px;
+  height: 350px;
+  white-space: normal;
+  background-repeat: no-repeat;
+}
+
+#itemOne {
+  background-color: #0099cc;
+  background-image: url('https://www.kirupa.com/images/blueSquare.png');
+}
+#itemTwo {
+  background-color: #ffcc00;
+  background-image: url('https://www.kirupa.com/images/yellowSquare.png');
+}
+#itemThree {
+  background-color: #ff6666;
+  background-image: url('https://www.kirupa.com/images/pinkSquare.png');
+}
+#itemFour {
+  background-color: #e8e8e8;
+  background-image: url('https://www.kirupa.com/images/graySquare.png');
+}
+
+#navLinks {
+  text-align: center;
+  width: 550px;
+}
+
+#navLinks ul {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  margin-top: 6px;
+}
+#navLinks ul li {
+  float: left;
+  text-align: center;
+  margin: 10px;
+  list-style: none;
+  cursor: pointer;
+  background-color: #cccccc;
+  padding: 5px;
+  border-radius: 50%;
+  border: black 5px solid;
+}
+#navLinks ul li:hover {
+  background-color: #ffff00;
+}
+#navLinks ul li.active {
+  background-color: #333333;
+  color: #ffffff;
+  outline-width: 7px;
+}
+#navLinks ul li.active:hover {
+  background-color: #484848;
+  color: #ffffff;
+}
